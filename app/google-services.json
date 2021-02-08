@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "518466124224",
+    "project_id": "cakebuzz-3c771",
+    "storage_bucket": "cakebuzz-3c771.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:518466124224:android:93c8c10126a1148884b025",
+        "android_client_info": {
+          "package_name": "com.example.cakebuzz_cakeorderingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "518466124224-qp64p2e01o9tem89n4cpj9q9pak2co1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDav52JBPIKS4CQi5PEeZh3eXeRO-2Fdik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "518466124224-qp64p2e01o9tem89n4cpj9q9pak2co1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
