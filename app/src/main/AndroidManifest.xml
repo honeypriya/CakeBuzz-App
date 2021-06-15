@@ -11,9 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CakeBuzzCakeOrderingApp">
-        <activity android:name=".ActivityAfterlogin"></activity>
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".Register" />
+        <activity android:name=".UpdateandBuy"></activity>
+        <activity android:name=".OrderList" />
+        <activity
+            android:name=".navigation"
+            android:label="@string/title_activity_navigation"
+            android:theme="@style/Theme.CakeBuzzCakeOrderingApp.NoActionBar" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,6 +24,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Register" />
+        <activity android:name=".description" />
     </application>
 
 </manifest>

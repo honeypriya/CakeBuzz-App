@@ -53,10 +53,10 @@ public class Register extends AppCompatActivity {
         fStore = FirebaseFirestore.getInstance();
         progressBar = findViewById(R.id.progressBar);
 
-        if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),ActivityAfterlogin.class));
-            finish();
-        }
+//        if(fAuth.getCurrentUser() != null){
+//            startActivity(new Intent(getApplicationContext(),ActivityAfterlogin.class));
+//            finish();
+//        }
 
 
         mRegisterBtn.setOnClickListener(new View.OnClickListener() {
@@ -124,7 +124,7 @@ public class Register extends AppCompatActivity {
                                     Log.d(TAG, "onFailure: " + e.toString());
                                 }
                             });
-                            startActivity(new Intent(getApplicationContext(),ActivityAfterlogin.class));
+                            startActivity(new Intent(getApplicationContext(),LoginActivity.class));
 
                         }else {
                             Toast.makeText(com.example.cakebuzz_cakeorderingapp.Register.this, "Error ! " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -134,8 +134,6 @@ public class Register extends AppCompatActivity {
                 });
             }
         });
-
-
 
         mLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override

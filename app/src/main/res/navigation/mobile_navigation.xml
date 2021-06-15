@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.cakebuzz_cakeorderingapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.cakebuzz_cakeorderingapp.ui.aboutus.AboutUsFragment"
+        android:label="AboutUS"
+        tools:layout="@layout/about_us_fragment" />
+
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.cakebuzz_cakeorderingapp.ui.contactus.ContactUsFragment"
+        android:label="ContactUs"
+        tools:layout="@layout/fragment_contactus" />
+
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.example.cakebuzz_cakeorderingapp.ui.rateus.RateUsFragment"
+        android:label="RateUs"
+        tools:layout="@layout/fragment_rateus" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.cakebuzz_cakeorderingapp.ui.logout.LogoutFragment"
+        android:label="Logout"
+        tools:layout="@layout/fragment_logout"
+         />
+</navigation>
