@@ -1,5 +1,6 @@
-Cake Ordering Online Application
-Introduction:
+#Cake Ordering Online Application
+
+##Introduction:
 This project deals with developing an android application for providing the online platform to order cake. 
 The platform used is Android Studio which is the official IDE for android application development. Along with the software development kit (SDK) which has a bunch of libraries, java is used for the back-end logic in application development.
 The main goal of developing Online Cake Ordering android application is to change way of bakery business. 
